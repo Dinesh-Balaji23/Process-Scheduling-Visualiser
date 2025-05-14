@@ -14,10 +14,9 @@ export const ProcessManager: React.FC<ProcessManagerProps> = ({
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-semibold">Progresses</h2>
+        <h2 className="text-xl font-semibold">Processes</h2>
         <span className="text-sm text-gray-500 dark:text-gray-400">{processes.length} processes</span>
       </div>
-      
       <div className="space-y-3">
         <button
           onClick={onAddProcess}
